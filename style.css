@@ -1,0 +1,280 @@
+/*
+	Author : sourav mahmud
+*/
+
+/***************************
+
+	1. Global Typography
+	2. Header Section
+	3. Banner Section
+	4. Intro Section
+	5. Features Section
+	6. Portfolio Section
+	7. Contact Section
+	8. Footer Section
+	
+***************************/
+
+/*=============================
+    1. Global Typography
+===============================*/
+
+/* google fonts lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: ;
+}
+a,a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-2{
+    width: 100%;
+    float: left;
+}
+
+.conteiner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+
+/* 2. header section */
+.header_section{
+    width: 100%;
+    float: left;
+    background: #eeeeee;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+
+.header_section .nav ul li{
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #000;
+
+}
+
+.header_section .nav ul li a{
+    transition: .2s;
+    padding: 25px 0px;
+    float: left;
+    color: rgb(73, 73, 73);
+}
+
+.header_section .nav ul li a:hover{
+    color: #f9f9f9;
+    padding: 10px;
+    color: #000000;
+
+}
+
+/* 3. Banner section */
+.banner{
+    background: url(banner.png) no-repeat;
+    background-size: cover;
+    padding: 120px 0px 40px;
+}
+
+.banner h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: 2px;
+}
+
+.banner p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.title-underline{
+    border: 1px solid #15a4fa;
+    width: 44%;
+    margin: 15px auto 20px;
+}
+
+.btn-primary{
+    padding: 15px 20px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin: 75px auto 150px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background: #15a4fa
+}
+
+.fa-angle-down{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* 4. Intro Section */
+.intro{
+    background-color: #f6f9f9;
+    padding: 30px 0px;
+}
+.intro h2{
+    text-align: center;
+    padding: 30px 0px 15px;
+}
+.intro p{
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+
+/* 5. Feature Section */
+.feature{
+    padding: 40px 0px;
+}
+.contents{
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: 0 1%;
+}
+.contents h4{
+    padding: 15px 0px;
+}
+.contents p{
+    padding: 5px 20px;
+}
+.feature-content{
+    overflow: hidden;
+    content: "";
+    display: table;
+    clear: both;
+    padding: 20px 40px;
+}
+
+/* 6. Portfolio Section */
+.portfolio{
+    background-color: #f6f9f9;
+    padding: 30px 0px;
+}
+.port-contents{
+    margin: 20px;
+    overflow: hidden;
+}
+.img:hover{
+    background-color: aqua;
+}
+.portfolio-text{
+    text-align: center;
+    padding: 10px;
+}
+.portfolio-text h2{
+    padding: 10px;
+}
+
+/* 7. Contact Section */
+.contact{
+    background: url(contact-bg.png) no-repeat;
+    background-size: cover;
+}
+.contact-text{
+    text-align: center;
+    padding: 50px 0px 15px;
+    color: #fff;
+}
+.contact-text h2{
+    padding: 20px;
+}
+.contact-form{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 0px 70px;
+}
+.form-contact input[type=text],input[type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: transparent;
+}
+.btn-send{
+    padding: 10px 30px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    float: right;
+}
+.btn-send:hover{
+    cursor: pointer;
+    background: #15a4fa
+}
+
+/* 8. Footer Section */
+.footer{
+    background-color: #f6f9f9;
+}
+.footer-text p{
+    float: left;
+    padding: 30px 0px;
+}
+.footer-icon{
+    float: right;
+    padding: 30px 0px;
+    
+}
